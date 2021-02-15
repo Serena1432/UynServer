@@ -12,7 +12,7 @@ For the MySQL server, import the `UynServer.sql` file to your MySQL database and
 
 ## Uses
 
-After configuration, just upload it into any PHP server and hosting that you want. You can use Heroku as a PHP hosting because you know, it is very good :))
+After configuration, just upload it into any PHP server or hosting that you want. You can use Heroku as a PHP hosting because you know, it is very good :))
 
 [Invite this BOT](https://discord.com/oauth2/authorize?client_id=770981744165519390&scope=bot&permissions=271707254)
 
