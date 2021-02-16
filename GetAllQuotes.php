@@ -11,7 +11,7 @@ if ($result->num_rows > 0) {
     }
     echo json_encode($info);
 } else {
-    echo "none";
+    echo "[]";
 }
 $conn->close();
 ?>
