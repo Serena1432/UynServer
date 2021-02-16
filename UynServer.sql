@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: localhost
--- Thời gian đã tạo: Th2 15, 2021 lúc 12:36 AM
+-- Thời gian đã tạo: Th2 16, 2021 lúc 05:59 AM
 -- Phiên bản máy phục vụ: 8.0.13-4
 -- Phiên bản PHP: 7.2.24-0ubuntu0.18.04.7
 
@@ -56,6 +56,17 @@ CREATE TABLE `uyn_mutedusers` (
 CREATE TABLE `uyn_pingrespond` (
   `id` bigint(16) NOT NULL,
   `quote` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `uyn_toggleping`
+--
+
+CREATE TABLE `uyn_toggleping` (
+  `server` bigint(16) NOT NULL,
+  `enabled` int(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
