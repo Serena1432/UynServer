@@ -1,5 +1,5 @@
 <?php
-if ($_GET["token"] == "3LetaV3Ja94e6wttSJJ26RD5bwVuSp5N") {
+if ($_GET["token"] == $server_token) {
     include "Connection.php";
 
     if ($_GET["type"] == "set") {
