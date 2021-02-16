@@ -40,8 +40,8 @@ if ($_GET["token"] == "3LetaV3Ja94e6wttSJJ26RD5bwVuSp5N") {
         $conn->close();
     }
 }
-$conn->close();
 else {
 echo 'Invalid token';
 }
+$conn->close();
 ?>
