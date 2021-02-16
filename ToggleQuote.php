@@ -1,4 +1,5 @@
 <?php
+include "Config.php";
 if ($_GET["token"] == $server_token) {
     include "Connection.php";
 
