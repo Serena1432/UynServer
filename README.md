@@ -22,7 +22,7 @@ After configuration, just upload it into any PHP server or hosting that you want
 
 You can contact the developer by using these social networks:
 
-Discord: Nico Levianth#2005
+Discord: Mache#3373
 
 [Facebook](https://www.facebook.com/Yonaka12)
 
