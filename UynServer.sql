@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 4.9.2
 -- https://www.phpmyadmin.net/
 --
--- Máy chủ: localhost
--- Thời gian đã tạo: Th2 15, 2021 lúc 12:36 AM
--- Phiên bản máy phục vụ: 8.0.13-4
--- Phiên bản PHP: 7.2.24-0ubuntu0.18.04.7
+-- Máy chủ: 127.0.0.1
+-- Thời gian đã tạo: Th6 09, 2021 lúc 11:54 AM
+-- Phiên bản máy phục vụ: 10.4.11-MariaDB
+-- Phiên bản PHP: 7.4.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Cơ sở dữ liệu: `G52Ie5oYY5`
+-- Cơ sở dữ liệu: `renlevianth`
 --
 
 -- --------------------------------------------------------
@@ -30,8 +30,19 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `uyn_customprefix` (
   `id` bigint(16) NOT NULL,
-  `prefix` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
+  `prefix` text COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `uyn_economymanager`
+--
+
+CREATE TABLE `uyn_economymanager` (
+  `id` bigint(20) NOT NULL,
+  `data` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -55,7 +66,7 @@ CREATE TABLE `uyn_mutedusers` (
 
 CREATE TABLE `uyn_pingrespond` (
   `id` bigint(16) NOT NULL,
-  `quote` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
+  `quote` text COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
