@@ -14,19 +14,16 @@ For the MySQL server, import the `UynServer.sql` file to your MySQL database and
 
 After configuration, just upload it into any PHP server and hosting that you want. You can use Heroku as a PHP hosting because you know, it is very good :))
 
-[Invite this BOT](https://discord.com/oauth2/authorize?client_id=770981744165519390&scope=bot&permissions=271707254)
-
-[Support Server](https://discord.gg/v9c27j9CQ6)
+[Invite this BOT](https://discord.com/oauth2/authorize?client_id=850900162930802729&scope=bot&permissions=271707254)
 
 ## Developer information
-
 You can contact the developer by using these social networks:
 
-Discord: Mache#3373
+Discord: Meir#0011
 
 [Facebook](https://www.facebook.com/Yonaka12)
 
-[Twitter](https://www.twitter.com/reallynotciel) (now inactive)
+[Twitter](https://www.twitter.com/reallynotciel)
 
 [Instagram](https://www.instagram.com/reallynotciel)
 
