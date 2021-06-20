@@ -1,4 +1,4 @@
-![Uyn logo](https://i.imgur.com/1UHPT0e.png)
+![Uyn logo](https://i.imgur.com/ZUlHOwY.png)
 
 # Welcome to the server-side repository of the Uyn BOT server!
 
